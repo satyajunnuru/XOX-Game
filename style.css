@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(105, 18, 18);
+    color: whitesmoke;
+    height:62px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+.game{
+    /* background-color: wheat; */
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 45px;
+    background-size: cover;
+}
+.left
+{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+
+.left div{
+    border: 4px solid black;
+    font-size: 49px;
+    
+}
+.left div:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beginningindication img{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+#btn{
+    margin: 45px 168px;
+    padding: 9px 16px;
+    border-radius: 35px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn:hover{
+    border: 2px solid red;
+}
+.game{
+    flex-wrap: wrap;
+}
+.game{
+    display: flex;
+}
+.right{
+    /* background: url(rightbackground.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; */
+   
+   padding: 45px 67px;
+   border-radius: 48px;
+   margin-left: 5px;
+}
+.left{
+    background-color:whitesmoke
+ 
+   /* margin: 0px 150px;
+   margin-left: 25px;
+   margin-right: 25px; */
+   
+}
+.middle{
+    /* margin-left: 25px;
+    margin-right: 25px; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .details{
+   padding: 12px 80px;
+}
+.details input{
+    
+    width: 107%;
+    text-align: center;
+}
+.right span{
+    font-size: 28px;
+   font-style: italic;
+   font-weight: bolder
+}
+.whole{
+    margin: 6px 0px;
+}
+.inf{
+    margin: 47px 175px;
+    background-color: wheat;
+    
+}
+.right h1{
+    color: black
+}
+body{
+    background: url(full.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
