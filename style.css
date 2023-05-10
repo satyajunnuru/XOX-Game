@@ -115,10 +115,10 @@ nav ul{
     
 }
 .right h1{
-    color: black
+    color: black;
 }
 body{
-/*     background: url(full.jpg); */
+    background: url(full.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
